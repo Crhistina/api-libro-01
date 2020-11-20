@@ -17,8 +17,8 @@ public class TipoLibro {
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	private int idTipoLibro;
-	private String nombre;
-	private String estado;
+	public int idTipoLibro;
+	public String nombre;
+	public String estado;
 
 }
